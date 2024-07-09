@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'titulos';
+  src: url(../fonts/alvina/Alvina_Demo.ttf);
+}
+@font-face {
+  font-family: 'texto';
+  src: url(../fonts/lt_cushion/LTCushion-Light.ttf);
+}
+@font-face {
+  font-family: 'otro';
+  src: url(../fonts/made_gentle/MADE\ Gentle\ PERSONAL\ USE.otf);
+}
+.todo{
+    animation: aparecer 10s infinite;
+}
+@keyframes aparecer {
+  0% {opacity:0;}
+  40% {opacity:3;}
+  80% {opacity:1;}
+  100% {opacity:0;}
+}
+.nombre{
+  animation: zoom 3s 1;
+}
+@keyframes zoom{
+  0% {transform: scale(1, 1);}
+  50% {transform: scale(1.5, 1.5);}
+  100% {transform: scale(1, 1);}
+}
+.degradado {
+  width: 100%; 
+  height: max-content; 
+  background: radial-gradient(closest-side,  #fc944d, #fc83d4 , #fcc4e8 ); 
+  background-attachment: fixed; width: 100%; background-repeat: no-repeat; background-size: cover;
+} 
+.fondo{
+  background-image: linear-gradient(to bottom right, #fc83d4, #fc944d);
+  background-attachment: 
+  fixed; width: 100%; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.azulado{
+  background: linear-gradient(180deg, #4f97db, #c5e8ff);
+  background-attachment: fixed; 
+  width: 100%; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.moradito{
+  background: linear-gradient(-90deg, #9f55ca, #fabfdf);
+}
